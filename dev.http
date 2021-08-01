@@ -1,0 +1,26 @@
+GET http://localhost:3000/users
+Accept: application/json
+X-API-VERSION: 1
+
+###
+GET http://localhost:3000/users/1
+Accept: application/json
+X-API-VERSION: 1
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+X-API-VERSION: 1
+
+{
+  "firstName": "Daeyeon",
+  "lastName": "Joo",
+  "isActive": true
+}
+
+###
+GET http://localhost:3000/users/aa
+Accept: application/json
+X-API-VERSION: 1
+
+###
